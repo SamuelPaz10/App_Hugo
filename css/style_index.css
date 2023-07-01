@@ -1,3 +1,49 @@
 body {
-    background-color: rgb(53, 130, 218);
+    background-color: rgb(236, 229, 250);
+}
+
+nav {
+    background-color: #7736a0;
+    height: 50px;
+    margin:-8px;
+    display: flex;
+    
+}
+
+nav input {
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 60%;
+    margin-top: 9px;
+    outline: 0;
+    width: 35%;
+    background-color: #4818a3;
+    color: #ffffff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    
+}
+
+nav select {
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    height: 60%;
+    margin-top: 9px;
+    outline: 0;
+    width: 50%;
+    background-color: #d2c9e2;
+    color: #4818a3;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    padding-left: 12px;
+}
+
+#nav1 {
+    width: 50%;
+}
+
+#nav2 {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
